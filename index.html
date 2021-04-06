@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<link rel="stylesheet" href="style.css" />
+	<title>Pepsi</title>
+	</head>
+
+<body>
+	<section class="sec">
+		<header>
+			<a href="#"><img src="Picture/logo.png" class="logo"></a>
+			<div class="toggleMenu" onclick="Menutoggle();"></div>
+			<ul class="navigation">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Collection</a></li>
+				<li><a href="#">Find Your Watch</a></li>
+				<li><a href="#">Add To Cart</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</header>
+		<div class="content">
+			<div class="textBox">
+				<h2>Rolex <br><span>Watches</span></h2>
+				<p>ROLEX WATCHES ARE CREATED WITH GREAT ATTENTION TO THE MINUTEST DETAILS.</p>
+				<a href="#">View Collection</a>
+			</div>
+			<div class="imgBox">
+				<img src="Picture/Rol003.png" class="rolex">
+			</div>
+		</div>
+		<ul class="thumb">
+			<li><img src="Picture/Rol001.png" onclick="imgSlide('Picture/Rol001.png');ChangeBgColor('#c49b61')">
+			</li>
+			<li><img src="Picture/Rol002.png" onclick="imgSlide('Picture/Rol002.png');ChangeBgColor('#c3bcb2')">
+			</li>
+			<li><img src="Picture/Rol003.png" onclick="imgSlide('Picture/Rol003.png');ChangeBgColor('#1fbce6')">
+			</li>
+		</ul>
+
+		<ul class="social-media">
+			<li><a href="#"><img src="Picture/instagram.png"></a></li>
+			<li><a href="#"><img src="Picture/twitter.png"></a></li>
+			<li><a href="#"><img src="Picture/facebook.png"></a></li>
+		</ul>
+	</section>
+	<script src="script.js"></script>
+	<p align="center"> Created By Rajeev Ranjan @2020</p>
+</body>
+
+</html>
